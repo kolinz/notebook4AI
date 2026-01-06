@@ -16,6 +16,7 @@ Unslothを使っています。Unslothが、2025年12月時点で配布してい
 | "[[{""role"":""user"",""content"":""キルチェーン（Cyber Kill Chain）とは何ですか？""},{""role"":""assistant"",""content"":""キルチェーンとは、攻撃の一連の段階（偵察・侵入・実行など）を整理したモデルです。各段階で対策を講じることで攻撃を阻止できます。""}]]" |
 | "[[{""role"":""user"",""content"":""メールセキュリティでSPFとは何ですか？""},{""role"":""assistant"",""content"":""SPFは送信元メールサーバの正当性を検証する仕組みで、なりすましメール対策に利用されます。""}]]" |
 
+サンプルとして、[faq-dataset.csv](https://github.com/kolinz/notebook4AI/blob/main/dataset-sample/faq-dataset.csv)を用意しましたので、ご自由にお使いください。
 
 ## IBM Granite 4.0を使ったファインチューニング
 Unslothを使っています。Unslothが、2025年12月時点で配布しているノードブック [Granite4.0_350M.ipynb](https://github.com/unslothai/notebooks/blob/main/nb/Granite4.0_350M.ipynb) を使って、日本語データセットを用意しファインチューニングを試みたところ、エラーが出たため、配布しているノートブックをもとに改修したものが、[Granite4_0_ja_dataset_FT.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Granite4_0_ja_dataset_FT.ipynb)になります。
