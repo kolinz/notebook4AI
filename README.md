@@ -1,8 +1,11 @@
 # notebook4AI
 
 ## Qwen3 0.6B を使ったファインチューニング
-Unslothを使っています。Unslothが、2025年12月時点で配布しているノードブック [Qwen3_(4B)-Instruct.ipynb](https://github.com/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-Instruct.ipynb) をもとに、日本語データセットを用意し、Qwen3 0.6Bでファインチューニングを行うためにカスタマイズしたノートブックが[Qwen3(0_6B)_ja_dataset_FT.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT.ipynb)になります。
+Unslothを使っています。Unslothが、2025年12月時点で配布しているノードブック [Qwen3_(4B)-Instruct.ipynb](https://github.com/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-Instruct.ipynb) をもとに、日本語データセットを用意し、Qwen3 0.6Bでファインチューニングを行うためにカスタマイズしたノートブックが下記になります。
+- 2026年1月19日時点：[Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb)
+- 2026年1月12日時点：[Qwen3(0_6B)_ja_dataset_FT.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT.ipynb)
 
+上記のノートブックについて、
 - 手法：ファインチューニング
 - 使用したモデル：unsloth/Qwen3-0.6B
 - モデルに対して、必要な日本語データセットのボリューム；だいたい100件以上が目安。120件で確認しています。
