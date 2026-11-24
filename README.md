@@ -1,16 +1,18 @@
 # notebook4AI
 
-## Qwen3 0.6B / 1.7B を使ったファインチューニング
+## Qwen3 0.6B / Qwen3 1.7B を使ったファインチューニング
 Unslothを使っています。Unslothが、2025年12月時点で配布しているノードブック [Qwen3_(4B)-Instruct.ipynb](https://github.com/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-Instruct.ipynb) をもとに、日本語データセットを用意し、Qwen3 0.6Bでファインチューニングを行うためにカスタマイズしたノートブックが下記になります。
 - 2026年11月24日時点：[Qwen3(1_7B)_ja_dataset_FT_with_SystemPrompt.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(1_7B)_ja_dataset_FT_with_SystemPrompt.ipynb)
   
 - 2026年1月19日時点：[Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb)
 
+
 上記のノートブックについて、
 - 手法：ファインチューニング
-- 使用したモデル：unsloth/Qwen3-0.6B/1.7B
+- 使用したモデル：unsloth/Qwen3-0.6B / Qwen3-1.7B
 - モデルに対して、必要な日本語データセットのボリューム；だいたい100件以上が目安。120件で確認しています。
 - 日本語データセットは、GoogleドライブにCSV形式でアップロードしたファイルを読み込むようにしています。ファイル名は、faq-dataset.csv です。ファイル名は変更する場合は、ノートブックの「日本語データセットの読み込みを実施」のセルのコードも変更してください。
+
 
 日本語データセットは、次のような構造のCSVファイルを作成してください。文字コードはUTF-8(BOM付き)です。文字コードがUTF-8(BOM付き)であることで、CSVファイルをMicrosoft Excelで開いた際に文字化けすることはありません。
 列は、`conversations`のみです。
