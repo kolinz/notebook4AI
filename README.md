@@ -2,9 +2,9 @@
 
 ## Qwen3 0.6B / 1.7B を使ったファインチューニング
 Unslothを使っています。Unslothが、2025年12月時点で配布しているノードブック [Qwen3_(4B)-Instruct.ipynb](https://github.com/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-Instruct.ipynb) をもとに、日本語データセットを用意し、Qwen3 0.6Bでファインチューニングを行うためにカスタマイズしたノートブックが下記になります。
-- 2026年11月24日時点：[Qwen3(1_7B)_ja_dataset_FT_with_SystemPrompt.ipynb]
+- 2026年11月24日時点：[Qwen3(1_7B)_ja_dataset_FT_with_SystemPrompt.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(1_7B)_ja_dataset_FT_with_SystemPrompt.ipynb)
+  
 - 2026年1月19日時点：[Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT_with_SystemPrompt.ipynb)
-- 2026年1月12日時点：[Qwen3(0_6B)_ja_dataset_FT.ipynb](https://github.com/kolinz/notebook4AI/blob/main/Qwen3(0_6B)_ja_dataset_FT.ipynb)
 
 上記のノートブックについて、
 - 手法：ファインチューニング
